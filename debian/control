@@ -1,0 +1,12 @@
+Source: ros-kinetic-turtlebot3-navigation
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://wiki.ros.org/turtlebot3_navigation
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-turtlebot3-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-amcl, ros-kinetic-map-server, ros-kinetic-move-base, ros-kinetic-turtlebot3-bringup
+Description: The turtlebot3_navigation provides roslaunch scripts for starting the navigation.
