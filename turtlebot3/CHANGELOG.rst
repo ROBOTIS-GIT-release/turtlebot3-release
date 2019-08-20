@@ -2,6 +2,20 @@
 Changelog for package turtlebot3
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.2.2 (2019-08-20)
+------------------
+* Fixed `dwa local planner params` for dwa_local_planner 1.16.2 `#415 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/415>`_
+* This patch only applies to ROS 1 Melodic.
+* Contributors: atinfinity, Kayman
+
+1.2.1 (2019-08-20)
+------------------
+* Fixed typo `#436 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/436>`_
+* Fixed ROS_ASSERT bug `#416 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/416>`_
+* Deleted '/' to sync tf2 `#402 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/402>`_
+* Added turtlebot3_remote.launch to turtlebot3_model.launch `#389 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/389>`_
+* Contributors: Jonathan Hechtbauer, Pallav Bhalla, ant, Ryan Shim, Kayman, Darby Lim, Gilbert, Pyo
+
 1.2.0 (2019-01-22)
 ------------------
 * changed math.ceil() operation `#373 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/373>`_
