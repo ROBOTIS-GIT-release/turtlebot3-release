@@ -2,6 +2,14 @@
 Changelog for package turtlebot3_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.2.2 (2019-08-20)
+------------------
+* none
+
+1.2.1 (2019-08-20)
+------------------
+* none
+
 1.2.0 (2019-01-22)
 ------------------
 * added windows port `#358 <https://github.com/ROBOTIS-GIT/turtlebot3/issues/358>`_
