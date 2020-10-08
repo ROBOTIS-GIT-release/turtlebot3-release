@@ -1,3 +1,33 @@
+## turtlebot3 (noetic) - 1.2.4-1
+
+The packages in the `turtlebot3` repository were released into the `noetic` distro by running `/usr/bin/bloom-release turtlebot3 -t noetic -r noetic` on `Thu, 08 Oct 2020 04:15:18 -0000`
+
+These packages were released:
+- `turtlebot3`
+- `turtlebot3_bringup`
+- `turtlebot3_description`
+- `turtlebot3_example`
+- `turtlebot3_navigation`
+- `turtlebot3_slam`
+- `turtlebot3_teleop`
+
+Version of package(s) in repository `turtlebot3`:
+
+- upstream repository: https://github.com/ROBOTIS-GIT/turtlebot3.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.2.4-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.8`
+- catkin_pkg version: `0.4.22`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## turtlebot3 (melodic) - 1.2.4-1
 
 The packages in the `turtlebot3` repository were released into the `melodic` distro by running `/usr/bin/bloom-release turtlebot3 -t melodic -r melodic --edit` on `Thu, 08 Oct 2020 02:57:39 -0000`
