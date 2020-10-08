@@ -1,0 +1,12 @@
+Source: ros-melodic-turtlebot3-description
+Section: misc
+Priority: optional
+Maintainer: Will Son <willson@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-urdf, ros-melodic-xacro
+Homepage: http://wiki.ros.org/turtlebot3_description
+Standards-Version: 3.9.2
+
+Package: ros-melodic-turtlebot3-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-urdf, ros-melodic-xacro
+Description: 3D models of the TurtleBot3 for simulation and visualization
