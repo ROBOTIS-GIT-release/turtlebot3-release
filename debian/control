@@ -1,0 +1,12 @@
+Source: ros-noetic-turtlebot3-description
+Section: misc
+Priority: optional
+Maintainer: Will Son <willson@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-urdf, ros-noetic-xacro
+Homepage: http://wiki.ros.org/turtlebot3_description
+Standards-Version: 3.9.2
+
+Package: ros-noetic-turtlebot3-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-urdf, ros-noetic-xacro
+Description: 3D models of the TurtleBot3 for simulation and visualization
