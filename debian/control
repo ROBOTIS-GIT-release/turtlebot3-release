@@ -1,0 +1,12 @@
+Source: ros-noetic-turtlebot3-navigation
+Section: misc
+Priority: optional
+Maintainer: Will Son <willson@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://wiki.ros.org/turtlebot3_navigation
+Standards-Version: 3.9.2
+
+Package: ros-noetic-turtlebot3-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-amcl, ros-noetic-map-server, ros-noetic-move-base, ros-noetic-turtlebot3-bringup
+Description: The turtlebot3_navigation provides roslaunch scripts for starting the navigation.
