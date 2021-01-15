@@ -1,0 +1,12 @@
+Source: ros-noetic-turtlebot3-teleop
+Section: misc
+Priority: optional
+Maintainer: Will Son <willson@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-geometry-msgs, ros-noetic-rospy
+Homepage: http://wiki.ros.org/turtlebot3_teleop
+Standards-Version: 3.9.2
+
+Package: ros-noetic-turtlebot3-teleop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-geometry-msgs, ros-noetic-rospy
+Description: Provides teleoperation using keyboard for TurtleBot3.
